@@ -1,0 +1,10 @@
+[project]
+name = "dao-governance"
+version = "0.1.0"
+authors = ["peacejoke"]
+
+[contracts]
+governance = { path = "contracts/governance.clar" }
+
+[repl]
+costs_version = 3
